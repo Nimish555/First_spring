@@ -5,6 +5,6 @@ public class SMSService implements NoticationService{
     @Override
     public void send(String message) {
 
-        System.out.println("email :" + message);
+        System.out.println("SMS :" + message);
     }
 }
